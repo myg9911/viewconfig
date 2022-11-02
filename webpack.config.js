@@ -43,5 +43,10 @@ module.exports = {
         use: ['babel-loader']
       }
     ]
+  },
+  resolve: {
+    alias: {
+      request$: "xhr", '@myg9911/viewconfig': path.resolve(__dirname, 'src/')
+    }
   }
 };
