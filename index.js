@@ -1,7 +1,7 @@
 import '@babel/polyfill';
 import 'url-polyfill';
 
-export * from './src/component';
-export * from './src/service';
-export * from './src/util';
-export * from './src/vue';
+export * from './component';
+export * from './service';
+export * from './util';
+export * from './vue';

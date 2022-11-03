@@ -1,6 +1,6 @@
 {
   "name": "@myg9911/viewconfig",
-  "version": "22.0.4",
+  "version": "22.1.1",
   "description": "Web Application Platform for T3 Series",
   "main": "./index.js",
   "scripts": {},
