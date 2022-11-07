@@ -1,4 +1,5 @@
 import ViewComponent from './component/ViewComponent';
+import vom from './ViewObjectManager';
 
 class ViewComponentManager {
   constructor() {

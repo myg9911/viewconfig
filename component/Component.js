@@ -1,7 +1,6 @@
 import { createOperationParamMap } from '../service/parameter';
 import { callGeneralService } from '../service/ServiceManager';
-
-
+import com from '../ViewComponentManager';
 
 export default class Component {
   constructor(id, element, viewId) {

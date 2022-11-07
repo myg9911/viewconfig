@@ -2,14 +2,7 @@ import axios from 'axios';
 import baseURI from '../util/baseURI';
 import getHeaders from '../util/getHeaders';
 
-const settings = {
-  projectCode: '',
-  mode: '',
-  component: {
-    button: 'icon',
-    input: 'floating'
-  }
-};
+const settings = {};
 
 async function getSettings() {
   let json = await axios.get(baseURI() + 'system/settings', {

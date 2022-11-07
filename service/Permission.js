@@ -2,6 +2,7 @@ import authentication from './Authentication';
 import baseURI from '../util/baseURI';
 import { PERMISSION_TYPE_PREFIX } from '../util/const';
 import getHeaders from '../util/getHeaders';
+import vom from '../ViewObjectManager';
 
 const Permission = () => {
   let permissions = [];
